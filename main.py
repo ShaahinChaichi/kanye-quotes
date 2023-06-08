@@ -3,6 +3,7 @@ import requests
 
 quote_text = ""
 
+
 def get_quote():
     global quote_text
     url = "https://api.kanye.rest/"
